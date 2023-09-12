@@ -29,7 +29,14 @@ Cette application est un exemple d'architecture N-tiers comprenant un frontend s
 ├── docker-compose.yml
 └── frontend
     ├── Dockerfile
+    ├── html
+    │   ├── css
+    │   │   └── style.css
+    │   ├── index.html
+    │   └── js
+    │       └── script.js
     └── nginx.conf
+
 ```
 
 ## Fonctionnalités
